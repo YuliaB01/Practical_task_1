@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+</head>
+<body>
+  <form action="#" name="form" method="post" enctype="multipart/form-data" novalidate="true">
+    <!-- Object info-->
+    <fieldset>
+      <legend>Інформація про об'єкт</legend>
+      <div>
+        <label for="title">Заголовок</label><br>
+        <input type="text" name="title" id="title" placeholder="Введіть назву об'єкта">
+      </div>
+      <div>
+        <label for="object_photo">Фото об'єкта</label><br>
+        <input type="file" name="object_photo" id="object_photo">
+      </div>
+      <div>
+        <label for="price">Ціна за кв. метр</label><br>
+        <input type="number" name="price" id="price" placeholder="Введіть ціну">
+      </div>  
+      <div>
+        <label for="class">Клас об'єкта</label><br>
+        <input type="text" name="class" id="class" placeholder="Введіть клас об'єкта">
+      </div>
+      <div>
+        <label for="status">Статус</label><br>
+        <select name="status" id="status">
+          <option>Проект</option>
+          <option>Будується</option>
+          <option>Зданий</option>
+          <option>Скандальний</option>
+        </select>
+      </div>
+      <div>
+        <label for="rate">Рейтинг</label><br>
+        <input type="checkbox" name="rate" id="rate">
+      </div>
+    </fieldset>
+    <!-- / -->
+    <!-- Object address -->
+    <fieldset>
+      <legend>Адреса</legend>
+      <div>
+        <label for="city">Місто</label>
+        <input type="text" name="city" id="city" placeholder="Введіть назву міста">
+      </div>
+      <div>
+        <label for="region">Мікрорайон</label>
+        <input type="text" name="region" id="region" placeholder="Введіть назву мікрорайона">
+      </div>
+      <div>
+        <label for="street">Вулиця</label>
+        <input type="text" name="street" id="street" placeholder="Введіть назву вулиці">
+      </div>
+    </fieldset>
+    <!-- / -->
+    <!-- Content -->
+    <fieldset>
+      <legend>Контент</legend>
+      <div>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea>
+      </div>
+    </fieldset>
+    <!-- / -->
+    <!-- Buttons -->
+    <div>
+      <button type="submit">Зберегти</button>
+      <button type="reset">Скасувати</button>
+    </div>
+    <!-- / -->
+  </form>
+</body>
+</html>

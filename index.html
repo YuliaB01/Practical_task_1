@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Web application development</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div>
+      <ul>
+        <li><a href="#">Article</a></li>
+        <li><a href="#">Talk</a></li>
+        <li><a href="#">Read</a></li>
+        <li><a href="#">Edit</a></li>
+        <li><a href="#">View history</a></li>
+        <li title="Click on this reference to open iframe"><a href="iframe.html">iFrame</a></li>
+      </ul>
+    </div>
+    <!-- / -->
+
+    <!-- Search -->
+    <form action="#" name="searchForm" target="#" method="get">
+      <input type="text" placeholder="Search Wikipedia" title="Search Wikipedia [alt-shift-f]" name="search">
+      <input type="submit" name="go" title="Go to a page with this exact name if it exists" >
+    </form>
+    <!-- / -->
+    
+    <!-- Main Part -->
+    <h1>Web application development</h1><hr>
+    <p>From Wikipedia, the free encyclopedia</p>
+    <div >
+      <table>
+        <tr>
+          <td><img width="40" height="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png" alt="icon"></td>
+          <td>This article <b>contains <a title="Wikipedia: What Wikipedia is not" href="#">instructions, advice, or how-to content</a></b>. The purpose of Wikipedia is to present facts, not to train. Please help <a href="#">improve this article</a> either by rewriting the how-to content or by<br> <a href="#">moving</a> it to <a href="#">Wikiversity, Wikibooks</a> or <a href="#">Wikivoyage</a>. <i>(September 2009)</i>
+          </td>
+        </tr>
+        <tr>
+          <td><img width="40" height="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/40px-Crystal_Clear_app_kedit.svg.png" alt="icon"></td>
+          <td>This article may need to be <b>rewritten entirely</b> to comply with Wikipedia's <a href="#">quality standards</a>, as unnecessary details. <a href="#">You can help</a>. The <a href="#">discussion page</a> May contain suggestions. <i>(February 2016)</i></td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <p><strong>Web application development</strong> is the process and practice of developing <a href="https://en.wikipedia.org/wiki/Web_application">web applications</a>.</p>
+      <h4>Contents [<a href="#">hide</a>]</h4>
+      <ol>
+        <li><a href="#risk">Risk</a></li>
+        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#lifecycle_model">Lifecycle Model</a></li>
+        <li><a href="#testing">Testing</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#frameworks">Frameworks and use</a></li>
+        <li><a href="#see_also">See also</a></li>
+        <li><a href="#references">References</a></li>
+        <li><a href="#further">Further reading</a></li>
+      </ol>
+    </div>
+
+    <!-- Risk part -->
+    <h2 id="risk">Risk</h2><hr>
+    <div>
+      <p>Just as with a traditional desktop application, web applications have varying levels of risk. A personal home page is much less risky than, for example, a stock trading web site. For some projects <a href="#">security</a>, <a href="#">software bugs</a>, etc. are major issues.<br> If time to market, or technical complexity is a concern, <a href="#">documentation</a>, <a href="#">test planning</a>, <a href="#">change control</a>, <a href="#">requirements analysis</a>, <a href="#">architectural description</a> and formal design and construction practices can mitigate risk.
+      </p>
+    </div>
+
+    <!-- Technologies part -->
+    <h2 id="technologies">Technologies</h2><hr>
+    <div>
+      <ul>
+        <li title="AJAX (programming)"><a href="https://en.wikipedia.org/wiki/Ajax_(programming)">Ajax</a></li>
+        <li title="Active Server Pages"><a href="https://en.wikipedia.org/wiki/Active_Server_Pages">ASP</a></li>
+        <li title="ASP.NET"><a href="https://en.wikipedia.org/wiki/ASP.NET">ASP.NET</a></li>
+        <li title="ActionScript"><a href="https://en.wikipedia.org/wiki/ActionScript">ActionScript</a></li>
+        <li title="Cascading Style Sheets"><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+        <li title="ColdFusion"><a href="https://en.wikipedia.org/wiki/Adobe_ColdFusion">ColdFusion</a></li>
+        <li title="Common Gateway Interface"><a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">CGI</a></li>
+        <li title="HTML5"><a href="https://en.wikipedia.org/wiki/HTML5">HTML</a></li>
+        <li title="Java (programming language"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></li>
+        <li title="JavaScript"><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+        <li title="JavaServer Pages"><a href="https://en.wikipedia.org/wiki/JavaServer_Pages">JSP</a></li>
+        <li title="LANSA (development environment)"><a href="https://en.wikipedia.org/wiki/LANSA_(development_environment)">Visual LANSA</a></li>
+        <li title="Lasso (programming language)"><a href="https://en.wikipedia.org/wiki/Lasso_(programming_language)">Lasso</a></li>
+        <li title="Node.js"><a href="https://en.wikipedia.org/wiki/Node.js">Node.js</a></li>
+        <li title="OSGI"><a href="https://en.wikipedia.org/wiki/OSGi">OSGI</a></li>
+        <li title="Perl"><a href="https://en.wikipedia.org/wiki/Perl">Perl</a></li>
+        <li title="PHP"><a href="https://en.wikipedia.org/wiki/PHP">PHP</a></li>
+        <li>PSGI</li>
+        <li title="Python (programming language)"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a></li>
+        <li title="Ruby (programming language)"><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a></li>
+      </ul>
+    </div>
+
+    <!-- Lifecycle Model part -->
+    <h2 id="lifecycle_model">Lifecycle Model</h2><hr>
+    <div>
+      <p><a href="#">Time to market</a>, company-growth and requirements churn, three things that are emphasized in web-based business, coincide with the principles of the <a href="#">Agile</a> practices. Some agile lifecycle models are:
+      </p>
+      <ul>
+        <li><a href="#">Extreme programming</a></li>
+        <li><a href="#">Scrum</a></li>
+        <li><a href="#">Timebox</a>development</li>
+        <li><a href="#">Feature-driven development</a></li>
+      </ul>
+    </div>
+    
+    <!-- Tesing part -->
+    <h2 id="testing">Tesing</h2><hr>
+    <div>
+      <p>Web applications undergo the same <a href="#">unit</a>, <a href="#">integration</a> and <a href="#">system testing</a> as traditional desktop applications. But because web application clients vary so greatly, teams might perform some additional testing, such as:
+      </p>
+      <ul>
+        <li>Security</li>
+        <li><a href="#">Performance</a>, <a href="#">Load</a>, and <a href="#">Stress</a></li>
+        <li><a href="#">HTML</a>/<a href="#">CSS</a> validation</li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Usability</a></li>
+        <li><a href="#">Cross-browser</a></li>
+      </ul>
+      <p>Many types of tests are <a href="#">automatable</a>. At the <a href="#">component</a> level, one of the <a href="#">xUnit</a> packages can be a helpful tool. Or an organization can create its own unit testing framework. At the GUI level, <a href="#">Watir</a> or <a href="#">iMacros</a> are useful.
+      </p>
+    </div>
+
+    <!-- Tools part -->
+    <h2 id="tools">Tools</h2><hr>
+    <div>
+      <p>In the case of <a href="#">ASP.NET</a>, a developer can use <a href="#">Microsoft Visual Studio</a> to write code. But, as with most other programming languages, he/she can also use a text editor. <a href="#">Notepad++</a> is an example. <a href="#">WebORB<br> Integration Server</a> for .NET can be used to integrate .NET services, data and media with any web client. It includes developer productivity tools and APIs for remoting, messaging and data management.</p>
+      <p>For <a href="#">ColdFusion</a> and the related open source CFML engines, there are several tools available for writing code. These include Adobe <a href="#">Dreamweaver</a> CS4, the CFEclipse plugin for <a href="#">Eclipse (software)</a> and Adobe<br> CF Builder. You can also use any text editor such as <a href="#">Notepad++</a> or <a href="#">TextEdit</a>.</p>
+      <p>For <a href="#">Java (programming language)</a>, there are many tools. The most popular are <a href="#">Apache Tomcat</a>, <a href="#">GlassFish</a>, <a href="#">JDeveloper</a> and <a href="#">Netbeans</a> but there are many others.</p>
+      <p>For <a href="#">PHP</a>, the <a href="#">Zend Development Environment</a> provides numerous <a href="#">debugging</a> tools and provides a rich feature set to make a <a href="#">PHP</a> developer's life easier. <a href="#">WebORB Integration Server</a> for PHP can be used to<br> integrate PHP classes and data with any web client. It includes developer productivity tools and APIs for remoting, messaging and data management. Tools such as <a href="#">Hammerkit</a> abstract <a href="#">PHP</a> into a visual<br> programming environment and utilise <a href="#">component-based software</a> methods to accelerate development.</p>
+      <p>Other tools include various <a href="#">browsers</a>, <a href="#">FTP clients</a>, etc. See <a href="#">Category:Web development software</a>.</p>
+      <br>
+      <table>
+        <tbody>
+          <tr>
+            <td><a href="https://en.wikipedia.org/wiki/File:Wiki_letter_w_cropped.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/20px-Wiki_letter_w_cropped.svg.png" alt="icon"></a></td>
+            <td>
+              <span>
+                <b>This section needs expansion.</b><br>
+                <small>You can help by <a href="#">adding to it</a>.</small><br>
+                <small><i>(May 2008)</i></small>
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Frameworks and use part -->
+    <h2 id="frameworks">Frameworks and use</h2><hr>
+    <div>
+      <blockquote><i>Main article: <a href="#">Web application framework</a></i></blockquote>
+      <p>Practicing <a href="#">code reuse</a> and using <a href="#">web application frameworks</a> can greatly improve both productivity and <a href="#">time to market</a> (McConnell 1996:537). Reusing externally developed components can allow an organization to reap<br> the above benefits, while potentially saving money. However, for smaller components, it might be just as easy to develop your own components as it would be to learn new <a href="#">APIs</a>. Also, if a component is essential to the<br> business, an organization might want to control its development.
+      </p>
+    </div>
+
+    <!-- See also part -->
+    <h2 id="see_also">See also</h2><hr>
+    <div>
+      <ul>
+        <li><a href="#">Device Independence</a></li>
+        <li><a href="#">List of Web based applications</a></li>
+        <li><a href="#">Web Interoperability</a></li>
+        <li><a href="#">Web application framework</a></li>
+      </ul>
+      <table>
+        <tr>
+          <td><a href="https://en.wikipedia.org/wiki/File:Green_bug_and_broom.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Green_bug_and_broom.svg/32px-Green_bug_and_broom.svg.png" alt="icon" width="32" height="28"></a></td>
+          <td><a href="https://en.wikipedia.org/wiki/File:Green_bug_and_broom.svg"><b>Software Testing portal</b></a></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- References part -->
+    <h2 id="references">References</h2><hr>
+    <div>
+      <ul>
+        <li><a href="#">McConnell, Steve</a> (June 2004). Code Complete, Second Edition. Microsoft Press. p. 960. <a href="#">ISBN 0-7356-1967-0</a>.</li>
+        <li><a href="#">McConnell, Steve</a> (July 2, 1996). Rapid Development. Microsoft Press. p. 680. <a href="#">ISBN 1-55615-900-5</a>.</li>
+        <li>Rozanski, Nick; Eóin Woods (April 20, 2005). Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives. Addison-Wesley Professional. p. 576. <a href="#">ISBN 0-321-11229-6</a>.</li>
+        <li>Leffingwell, Dean; Don Widrig (May 16, 2003). Managing Software Requirements: A Use Case Approach, Second Edition. Addison-Wesley Professional. p. 544. <a href="#">ISBN 0-321-12247-X</a>.</li>
+      </ul>
+    </div>
+
+    <!-- Further reading part -->
+    <h2 id="further">Further reading</h2><hr>
+    <div>
+      <ul>
+        <li>Whittaker, James A.; Mike Andrews (February 2, 2006). How to Break Web Software: Functional and Security Testing of Web Applications and Web Services. Addison-Wesley Professional. p. 240. <a href="#">ISBN 0-321-36944-0</a>.</li>
+      </ul>
+    </div>
+    <div>
+      <p><a href="#">Categories</a>: <a href="#">Web applications</a> | <a href="#">Web development</a></p>
+    </div>
+    </body>
+</html>
